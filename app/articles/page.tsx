@@ -26,7 +26,7 @@ export default async function Page() {
   const articles = await fetchArticles();
   return (
     <>
-      <h1><strong>ARTICLES INFO</strong></h1>
+      <h1><strong>ARTICLES INFOMATION</strong></h1>
       <ul>
         {
           articles?.data.map((article: IArticle)=>{
